@@ -1,3 +1,9 @@
+$main-color: #1eacc7
+$second-color: #ff5656
+
+*
+    font-family: 'Roboto', sans-serif
+
 header
     height: 50px
     position: relative
@@ -64,4 +70,47 @@ nav
         background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
         box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12)
         color: #ffffff
+        text-transform: uppercase
+
+.promo
+    min-height: 800px
+    background: url(../img/uber_bg.jpg) center center/cover no-repeat
+    padding: 150px 0 135px
+    &_header
+        color: #ffffff
+        font-weight: 700
+        text-transform: uppercase
+        font-size: 60px
+        line-height: 60px
+        margin: 0
+        text-align: center
+    &_subheader
+        color: #ffffff
+        font-weight: 700
+        text-transform: uppercase
+        font-size: 36px
+        line-height: 36px
+        margin: 0
+        margin-top: 22px
+        text-align: center
+    &_descr
+        color: #ffffff
+        font-size: 18px
+        font-weight: 400
+        line-height: 24px
+        text-align: center
+        margin-top: 23px
+    &_btn
+        display: block
+        margin: 118px auto 0 auto
+        width: 259px
+        height: 63px
+        box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12)
+        border: none
+        border-radius: 4px
+        background-image: linear-gradient(to top,$main-color 0%, #4ce2ff 100%)
+        text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+        color: #ffffff
+        font-size: 18px
+        font-weight: 400
         text-transform: uppercase
