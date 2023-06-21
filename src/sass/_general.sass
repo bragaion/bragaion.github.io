@@ -3,9 +3,6 @@ header
     height: 50px
     position: relative
 
-// .container
-//     max-width: 1140px
-
 nav
     position: fixed
     width: 100%
@@ -18,7 +15,6 @@ nav
     justify-content: space-between
     padding: 13px 70px
     margin: 0
-    // list-style-type: none
     &_link
         color: #ffffff
         font-size: 15px
@@ -27,6 +23,9 @@ nav
         &:hover
             color: $main-color
             list-style-type: none
+.hamburger
+    display: none
+
 .subheader
     position: absolute 
     width: 100%
@@ -394,3 +393,6 @@ footer
     &_mobile
         a
             text-decoration: none
+
+.xs-visible
+    display: none

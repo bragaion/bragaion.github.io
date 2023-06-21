@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
-<body>
 
     <header>
         <nav>
@@ -24,28 +23,34 @@
                     <li class="menu_item"><a href="#" class="menu_link">Оставить заявку</a></li>
                 </ul>
             </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </header>
 
     <div class="subheader">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 offset-md-1">
+                <div class="col-6 col-md-4 offset-md-1">
                     <a href="#" class="subheader_logo"><img src="icons/Uber.png" alt="Logo"></a>
                     <div class="subheader_official">Официальный партнер Uber в Москве</div>
                 </div>
-                <div class="col-md-3 offset-md-1 col-xl-2 offset-xl-2">
+                <div class="xs-hiden col-md-3 offset-md-1 col-xl-2 offset-xl-2">
                     <div class="subheader_call">Звоните нам ежедневно</div>
-                    <div href="tel:84957970988" class="subheader_phone">8 495 797 09 88</div>
+                    <a href="tel:84957970988" class="subheader_phone">8 495 797 09 88</a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
+                    <a href="tel:84957970988" class="subheader_phone xs-visible">8 495 797 09 88</a>
                     <button class="subheader_btn">заказать звонок</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <section class="promo">
+        <section class="promo">
         <div class="container">
             <div class="row">
                 <div class="ol-md-12 col-md-10 offset-md-1">
@@ -65,7 +70,7 @@
         </div>
     </section>
 
-    
+
     <section class="reasons">
         <div class="container">
             <div class="label">преимущества</div>
@@ -186,7 +191,6 @@
             </div>
         </div>
     </section>
-
 
     <section class="mobile">
         <div class="container">
@@ -388,6 +392,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> 
+    <script src="js/script.js"></script>
 </body>
 </html>
